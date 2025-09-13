@@ -1,0 +1,21 @@
+ *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+
+#container{
+  background-color: blue;
+  border: solid;
+  border-color: black;
+  height: 40px;
+  width:  40px;
+  display: flex;
+  flex-wrap: wrap;
+  
+  }
+
+.divJS{
+  border: solid,
+      black;
+}
