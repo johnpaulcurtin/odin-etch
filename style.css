@@ -12,10 +12,11 @@
   width:  40px;
   display: flex;
   flex-wrap: wrap;
-  
+
   }
 
 .divJS{
-  border: solid,
+  border: dotted;
       black;
+  transition-delay: .5s;
 }
