@@ -8,10 +8,11 @@
   background-color: blue;
   border: solid;
   border-color: black;
-  height: 40px;
-  width:  40px;
+  height: 400px;
+  width:  400px;
   display: flex;
   flex-wrap: wrap;
+  cursor:crosshair;
 
   }
 
@@ -19,5 +20,5 @@
   border: dotted,
       black; 
       
-  transition-delay: .5s;
+  transition-delay: .2s;
 }
