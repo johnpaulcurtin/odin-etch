@@ -16,7 +16,8 @@
   }
 
 .divJS{
-  border: dotted;
-      black;
+  border: dotted,
+      black; 
+      
   transition-delay: .5s;
 }

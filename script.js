@@ -9,6 +9,8 @@
 //16 x 16 square grid write code to create gid of divs x across by x wide
 
 
+
+
 function gridCreator(x) {
     const container = document.querySelector('#container');
     const containerHeight = 40 + (40 * x);
@@ -28,8 +30,11 @@ function gridCreator(x) {
     };
 };
 
-
 gridCreator(4); 
+
+
+  
+
 
 
 
