@@ -7,28 +7,39 @@
 
 
 //16 x 16 square grid write code to create gid of divs x across by x wide
-gridCreator()
+
+let inputElement = 5;
+
+gridCreator(inputElement);
 
 function gridCreator(x) {
     const container = document.querySelector('#container');
     for(i = 0; i < x * x; i++){
     const box = document.createElement('div');
-    box.classList.add('divJS');
-    const flexB = 100/x
-    box.style.flexBasis=`${flexB}%`;
+    box.style.width = `${(500 / x) - 2}px`;
+    box.style.height = `${(500 / x) - 2}px`;
+    box.id='divJS';
    box.addEventListener('mouseover', () => {
-      box.style.backgroundColor = '#2fc5c5ff';
+      box.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
       });
     container.appendChild(box);
     };
 };
 
+
+
 function getInputValue(){
-  const inputElement = document.getElementById('gridNum').value
+  gridRemover();
+  inputElement = document.getElementById('gridNum').value;
   gridCreator(inputElement);
 };
 
-
+function gridRemover(){
+   const container = document.querySelector('#container');
+  while (container.firstChild){
+    container.removeChild(container.firstChild);
+  };
+};
   
 
 
