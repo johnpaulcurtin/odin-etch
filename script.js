@@ -20,7 +20,7 @@ function gridCreator(x) {
     box.style.height = `${(500 / x) - 2}px`;
     box.id='divJS';
    box.addEventListener('mouseover', () => {
-      box.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
+      box.style.backgroundColor = 'rgba(0, 0, 0, 0.23)';
       });
     container.appendChild(box);
     };
