@@ -8,7 +8,7 @@
 
 //16 x 16 square grid write code to create gid of divs x across by x wide
 
-let inputElement = 5;
+let inputElement = 4;
 
 gridCreator(inputElement);
 

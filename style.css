@@ -1,10 +1,14 @@
 *{
   margin:0;
   padding: 0;
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
 }
 
 body {
-  margin: 10px;
+  margin: 40px;
   display:flex;
   flex-direction: column;
   background-color: rgb(100, 145, 184);
@@ -36,20 +40,46 @@ body {
 #input{
   display: flex;
   height: 40px;
-  width: 450px;
-  background-color: azure;
-  border: solid 2px;
+  width: 400px;
+  background-color: rgba(0, 0, 255, 0.101);
   align-items: center;
   justify-content: center;
-  column-gap: 10px;
-  margin: 30px
+  column-gap: 15px;
+  margin: 10px auto 30px;
+  box-shadow: 10px 10px 10px black;
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgba(0, 0, 255, 0.503);
+  text-shadow: 1px 2px 2px rgb(220, 210, 210);
+
   
 }
 
 button{
   width: 70px;
   height: 30px;
-  border: solid blue 2px;
+  color: rgba(0, 0, 255, 0.503);
+  font-size: 18px;
+  background-color: rgb(126, 174, 216);
+  text-shadow: 1px 1px 2px rgb(220, 210, 210);
+  border: double rgb(100, 145, 184) 2px;
   border-radius: 4px;
-  
+    
+}
+button:hover{
+  box-shadow: 0px 0px 10px rgb(255, 255, 255); 
+
+}
+input{
+  height: 50px;
+  width: 50px;
+  background-color: rgb(126, 174, 216);
+  border-radius: 50px;
+  border: groove rgb(100, 145, 184) 3px ;
+  box-shadow: 0px 0px 6px rgb(194, 193, 193);
+  text-align: center;
+  font-size: 4vh;
+  font-weight: bolder;
+  color: rgba(0, 0, 255, 0.503);
+  text-shadow: 1px 1px 2px rgb(220, 210, 210);
 }
